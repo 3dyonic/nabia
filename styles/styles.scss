@@ -53,7 +53,9 @@ i {
   text-align: center;
 
   > img {
-    height: 279px;
+    max-height: 279px;
+    max-width: 100%;
+
   }
 }
 

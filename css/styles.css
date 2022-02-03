@@ -21,7 +21,8 @@ i {
   text-align: center;
 }
 .logo > img {
-  height: 279px;
+  max-height: 279px;
+  max-width: 100%;
 }
 
 h3 {
