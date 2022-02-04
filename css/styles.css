@@ -5,7 +5,6 @@
 body {
   background-image: url("../images/mountains.png"), url("../images/bg.jpg");
   background-repeat: no-repeat, no-repeat;
-  background-color: #263176;
   background-attachment: fixed, scroll;
   background-position: top center, top center;
   background-size: 100% auto, contain;
@@ -22,11 +21,14 @@ i {
   color: red;
 }
 
-.wrapper {
+.nabia {
   background-image: url("../images/nabiaS.png");
-  background-size: contain;
   background-repeat: no-repeat;
-  background-position-y: 20vh;
+  background-position: center 20vh;
+}
+
+.bg-alt {
+  background-color: #263176;
 }
 
 .container {
