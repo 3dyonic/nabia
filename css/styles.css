@@ -3,7 +3,8 @@
 }
 
 body {
-  color: rgba(255, 255, 255, 0.3);
+  direction: rtl;
+  color: white;
   padding: 0;
   margin: 0;
   background-color: #007a93;
