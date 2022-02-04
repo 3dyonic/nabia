@@ -1,0 +1,42 @@
+.cta-boxes {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+
+  li {
+    padding: $spacer;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    @media only screen and (min-width: 768px) {
+      width: 50%;
+      &:nth-child(3n + 1) {
+        background-color: $color-system;
+      }
+    }
+    @media only screen and (max-width: 767px) {
+      &:nth-child(odd) {
+        background-color: $color-system;
+      }
+    }
+  }
+
+  img {
+    width: $cta-box-image-size;
+    height: $cta-box-image-size;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  h3 {
+    font-size: 26px;
+    margin: $spacer 0;
+  }
+
+  p {
+    font-size: 20px;
+    margin: 0;
+  }
+}

@@ -1,0 +1,27 @@
+.faq {
+  padding: 0;
+  margin: 0;
+
+  li {
+    padding: $spacer;
+    list-style-type: none;
+    cursor: pointer;
+
+    &:nth-child(odd) {
+      background-color: $color-gray-100;
+    }
+
+    &:nth-child(even) {
+      background-color: $color-gray-200;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+
+      i {
+        margin-right: $spacer/4;
+      }
+    }
+  }
+}

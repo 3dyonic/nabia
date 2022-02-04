@@ -1,0 +1,26 @@
+$color-gray-100: #d5d8dc;
+$color-gray-200: #babfc5;
+$color-gray-300: #9ea5ae;
+$color-gray-400: #828b97;
+$color-gray-500: #68727d;
+$color-gray-600: #515861;
+$color-gray-700: #3a3f45;
+$color-gray-800: #23262a;
+$color-gray-900: #0c0d0e;
+
+$color-system: $color-gray-100;
+
+$border-style-system: dotted;
+$border-color-system: $color-system;
+
+$spacer: 1rem;
+
+$wrapper-max-width: 1280px;
+$wrapper-border: 1px $border-style-system $border-color-system;
+
+$logo-size: 400px;
+$logo-background-color: $color-system;
+
+$register-bg: $color-gray-300;
+
+$cta-box-image-size: 100px;

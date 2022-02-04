@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "sass styles/styles.scss css/styles.css -w",
-    "sass": "sass styles/styles.scss css/styles.css -w"
+    "sass": "sass styles/*.scss css/*.css -w"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/3dyonic/nabia/issues"
   },
-  "homepage": "https://github.com/3dyonic/nabia#readme"
+  "homepage": "https://github.com/3dyonic/nabia#readme",
+  "devDependencies": {
+    "sass": "^1.49.7"
+  }
 }
