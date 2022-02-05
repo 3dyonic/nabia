@@ -11,6 +11,12 @@ body {
   padding: 0;
   margin: 0;
   background-color: rgb(0, 122, 147);
+  font-family: 'Rubik', sans-serif;
+  background-image: url("../images/nabia_bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-position: top center;
+  background-size: cover;
 }
 
 h3 {
@@ -19,18 +25,4 @@ h3 {
 
 i {
   color: red;
-}
-
-.bg-1 {
-  background-image: url("../images/bg.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: top center;
-}
-
-.bg-2 {
-  background-image: url("../images/mountains.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: top center;
 }
